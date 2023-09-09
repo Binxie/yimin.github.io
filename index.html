@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Startup - Startup Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div style="display:none;">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Carousel Start -->
+    <div >
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0 sticky-top shadow-sm">
+            <a href="index.html" class="logo">
+				  <img src="img/logo.png" alt="" class="logoimg">
+			  </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0" >
+                    <a href="index.html" class="nav-item nav-link active">关于我们</a>                    
+                    <!--<a href="service.html" class="nav-item nav-link" >我们的服务</a>-->
+					
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">香港</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="blog.html" class="dropdown-item">介绍</a>
+                            <a href="detail.html" class="dropdown-item">我们的服务</a>
+                        </div>
+                    </div>
+					 <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">新加坡</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="blog.html" class="dropdown-item">介绍</a>
+                            <a href="detail.html" class="dropdown-item">我们的服务</a>
+                        </div>
+                    </div>
+                    <!--<div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="price.html" class="dropdown-item">Pricing Plan</a>
+                            <a href="feature.html" class="dropdown-item">Our features</a>
+                            <a href="team.html" class="dropdown-item">Team Members</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            <a href="quote.html" class="dropdown-item">Free Quote</a>
+                        </div>
+                    </div>-->
+                    <a href="contact.html" class="nav-item nav-link">联系我们</a>
+                </div>
+                <!--<butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a>-->
+            </div>
+        </nav>
+
+        <!--<div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h1>
+                            <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
+                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h1>
+                            <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
+                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>-->
+    </div>
+    <!-- Navbar & Carousel End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-fluid facts py-5 pt-lg-0" style="display:none;">
+        <div class="container py-5 pt-lg-0">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-users text-primary"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Happy Clients</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-check text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-primary mb-0">Projects Done</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">12345</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                            <i class="fa fa-award text-primary"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Win Awards</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts Start -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" style="background:#EEF9FF;margin-top:0;padding-top:145px !important;padding-bottom:0px !important;" data-wow-delay="0.1s">
+        <div class="container py-5" style="margin-left:100px !important;margin-right:100px !important;">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <span class="title1">关于我们</span>
+                        <h1 class="title2" >懂出海 重品质 视信誉为生命</h1>
+                    </div>
+                    <p class="mb-4" style="font-size:22px;">侨成咨询总部位于香港，是一家专注于香港及海外身份定制，业务遍布香港、新加坡等地的服务型企业。凭借强大的专业团队，积极建造全维度、定制化、专业化的“香港及海外身份定制服务商”，以“视信誉为生命”的理念夯实行业领军地位</p>
+                    <!--<div class="row g-0 mb-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
+                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">Call to ask any question</h5>
+                            <h4 class="text-primary mb-0">+012 345 6789</h4>
+                        </div>
+                    </div>
+                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>-->
+                </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/hong-kong-morning.jpg" style="object-fit: cover;width:170% !important">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Features Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <!--<h5 class="fw-bold text-primary text-uppercase">Why Choose Us</h5>-->
+                <h1 class="mb-0">业务范围</h1>
+            </div>
+			<div class="row g-5">
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/hongkong.png" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="" style="font-size:20px;">香港</a>
+                        </div>
+                        <div class="p-4">                            
+                            <h4 class="mb-3">身份规划</h4>
+                            <p class="content1">香港优秀人才入境计划（优才）<br/>
+							高端人才通行证计划（高才）<br/>
+							输入内地人才计划（专才）<br/>
+							香港留学规划（进修）<br/>
+							科技人才入境计划（科才）<br/>
+							企业家来港投资（企业家）<br/>
+							资本投资入境计划（投资移民）</p>   
+							<h4 class="mb-3">投资理财</h4>
+							<p class="content1">房产投资、家族办公室、保险、退税等</p>
+							<h4 class="mb-3">教育规划</h4>
+							<p class="content1">幼儿园到大学各阶段教育规划及学校申请</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="blog-item bg-light rounded overflow-hidden"  style="height:850px;">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/singapore.png" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="" style="font-size:20px;">新加坡</a>
+                        </div>
+                        <div class="p-4">                           
+                            <h4 class="mb-3">身份规划</h4>
+                            <p class="content1">自雇创业移民，创业与移民一站式服务</p>   
+							<h4 class="mb-3">投资理财</h4>
+							<p class="content1">家族办公室、离岸银行账户、海外理财规划</p>
+							<h4 class="mb-3">教育规划</h4>
+							<p class="content1">从幼儿园到大学各阶段教育规划以及申请</p>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <!--<div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-cubes text-white"></i>
+                            </div>
+                            <h4>Best In Industry</h4>
+                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-award text-white"></i>
+                            </div>
+                            <h4>Award Winning</h4>
+                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="img/feature.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-users-cog text-white"></i>
+                            </div>
+                            <h4>Professional Staff</h4>
+                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-phone-alt text-white"></i>
+                            </div>
+                            <h4>24/7 Support</h4>
+                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+    <!-- Features Start -->
+
+
+    <!-- Service Start
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
+                <h1 class="mb-0">Custom IT Solutions for Your Successful Business</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-shield-alt text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Cyber Security</h4>
+                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-chart-pie text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Data Analytics</h4>
+                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-code text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Web Development</h4>
+                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fab fa-android text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Apps Development</h4>
+                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-search text-white"></i>
+                        </div>
+                        <h4 class="mb-3">SEO Optimization</h4>
+                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <a class="btn btn-lg btn-primary rounded" href="">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                        <h3 class="text-white mb-3">Call Us For Quote</h3>
+                        <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
+                        <h2 class="text-white mb-0">+012 345 6789</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Pricing Plan Start 
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Pricing Plans</h5>
+                <h1 class="mb-0">We are Offering Competitive Prices for Our Clients</h1>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="bg-light rounded">
+                        <div class="border-bottom py-4 px-5 mb-4">
+                            <h4 class="text-primary mb-1">Basic Plan</h4>
+                            <small class="text-uppercase">For Small Size Business</small>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h1 class="display-5 mb-3">
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>49.00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                            </h1>
+                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-times text-danger pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-times text-danger pt-1"></i></div>
+                            <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="bg-white rounded shadow position-relative" style="z-index: 1;">
+                        <div class="border-bottom py-4 px-5 mb-4">
+                            <h4 class="text-primary mb-1">Standard Plan</h4>
+                            <small class="text-uppercase">For Medium Size Business</small>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h1 class="display-5 mb-3">
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>99.00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                            </h1>
+                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-times text-danger pt-1"></i></div>
+                            <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="bg-light rounded">
+                        <div class="border-bottom py-4 px-5 mb-4">
+                            <h4 class="text-primary mb-1">Advanced Plan</h4>
+                            <small class="text-uppercase">For Large Size Business</small>
+                        </div>
+                        <div class="p-5 pt-0">
+                            <h1 class="display-5 mb-3">
+                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>149.00<small
+                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
+                            </h1>
+                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary pt-1"></i></div>
+                            <a href="" class="btn btn-primary py-2 px-4 mt-4">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing Plan End -->
+
+
+    <!-- Quote Start 
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">Request A Quote</h5>
+                        <h1 class="mb-0">Need A Free Quote? Please Feel Free to Contact Us</h1>
+                    </div>
+                    <div class="row gx-3">
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Reply within 24 hours</h5>
+                        </div>
+                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone support</h5>
+                        </div>
+                    </div>
+                    <p class="mb-4">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+                    <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <h5 class="mb-2">Call to ask any question</h5>
+                            <h4 class="text-primary mb-0">+012 345 6789</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-xl-12">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <select class="form-select bg-light border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-dark w-100 py-3" type="submit">Request A Quote</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+    <!-- Testimonial Start 
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
+                <h1 class="mb-0">What Our Clients Say About Our Digital Services</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">Client Name</h4>
+                            <small class="text-uppercase">Profession</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">Client Name</h4>
+                            <small class="text-uppercase">Profession</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">Client Name</h4>
+                            <small class="text-uppercase">Profession</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="img/testimonial-4.jpg" style="width: 60px; height: 60px;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">Client Name</h4>
+                            <small class="text-uppercase">Profession</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">                
+                <h1 class="mb-0">团队核心成员</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/tristaqin.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h2 class="text-primary">Trista Qin</h2><h6 style="font-size:20px;">（中国香港）</h6>
+                            <h5 class="text-uppercase m-0" style="font-size:20px;">创始人</h5>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">毕业于香港大学，获工商管理（金融及财务方向）学士学位。大学期间为香港大学学生大使，获香港大学生理财管理大赛第一名</p>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">毕业后曾任职于私募基金、国际顶级投行如瑞银、星展并在上市公司担任资本市场负责人。在香港有逾十年读书、工作、生活经历，
+擅长资产配置、房地产投资分析、教育规划等</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/adelinechen.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h2 class="text-primary">Adeline Chen</h2><h6 style="font-size:20px;">（新加坡）</h6>
+                            <h5 class="text-uppercase m-0" style="font-size:20px;">高级经理</h5>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">毕业于南洋理工大学教育学学士专业（荣誉学位），南洋理工大学国际政治经济学硕士专业</p>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">本科毕业后受聘于新加坡教育部，在新加坡政府学校服务多年，专注于儿童教育。其后，转行进入金融行业，曾在美国知名银行任职，负责新加坡海外国际个人业务。在新加坡读书、生活、工作逾二十年，擅长教育规划与金融服务</p>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/jaspercao.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4" style="height:478px;">
+                            <h2 class="text-primary">Jasper Cao</h2><h6 style="font-size:20px;">（中国香港）</h6>
+                            <h5 class="text-uppercase m-0" style="font-size:20px;">高级经理</h5>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">毕业于香港中文大学，先后获得社会科学（新闻与传播学）学士学位和法律博士学位</p>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">在香港读书、生活近10年，曾在媒体和IT行业工作，后转行进修法律，于国际律师事务所担任见习律师</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<br/>
+			<div class="row g-5">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/amberzhang.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <h2 class="text-primary">Amber Zhang</h2>
+                            <h5 class="text-uppercase m-0" style="font-size:20px;">高级经理</h5>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">毕业于中国人民大学，先后获得理学学士学位、应用统计学硕士学位</p>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">毕业后曾任职于某城商行下属金控平台投资银行部、某上市公司战略研究部、资本市场部，拥有证券从业、基金从业等多个证书。擅长企业全生命周期投资及资本运作，完成多起一二级市场收并购项目，在投资领域具备丰富的投资经验</p>
+                        </div>
+                    </div>
+                </div>				
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/yujingzhang.png" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center py-4" style="height:421px;">
+                            <h2 class="text-primary">Yujing Zhang</h2>
+                            <h5 class="text-uppercase m-0" style="font-size:20px;">高级经理</h5>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">毕业于中国人民大学，获法学硕士学位</p>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">毕业后任职于某上市公司战略研究部、资本市场部，其后，转入咨询公司，负责多家A股上市公司资本服务。拥有证券从业、心理咨询等多个证书。擅长移民政策研究、教育规划、文案撰写、客户服务等</p>
+                        </div>
+                    </div>
+                </div>				
+            </div>			
+        </div>
+    </div>
+	
+	<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">                
+                <h1 class="mb-0">特别顾问</h1>
+            </div>
+			<div class="row g-5">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">                        
+                        <div class="text-center py-4">
+                            <h2 class="text-primary">Dr. Xian</h2>                            
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">普林斯顿大学博士，香港大学一等荣誉学士学位。普林斯顿大学福特学者，沃顿商学院研究员，普林斯顿大学面试官，多所大学担任兼职教授，发表近20篇sci一区论文，他引次数超500次</p>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">担任全球某头部互联网公司战略总经理，同时负责投资，此前亦在全球顶尖上市咨询公司担任执行总监，资深项目经理等管理职位</p>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">曾创办教育公司，担任创始人CEO，个人服务超500位学生拿到美国，英国顶尖学府offer，曾指导普通辽宁公立学校学生在托福不到110分情况下拿到耶鲁大学本科全奖录取，近10年辽宁唯一耶鲁全奖录取。擅长美国，英国等发达国家教育资源对接，留学规划，学术规划与研究指导，职业发展规划，公司与企业管理咨询，移民建议，资产管理等</p>
+                        </div>
+                    </div>
+                </div>				
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">                        
+                        <div class="text-center py-4" style="height:722px;">
+                            <h2 class="text-primary">Dr. Wang</h2><h6 style="font-size:20px;">（中国香港）</h6>                            
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">清华大学本科，美国西北大学博士</p>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">前香港知名高校终身副教授兼授课型硕士项目主任，全面负责项目的课程设计、招生、和日常管理</p>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">具有丰富的招生经验，累计处理数千份申请。熟悉香港高校的运作、招生体系与筛选评价标准</p>
+                        </div>
+                    </div>
+                </div>	
+				<div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="text-center py-4" style="height:722px;">
+                            <h2 class="text-primary">Calvin</h2><h6 style="font-size:20px;">（中国香港）</h6>                            
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">香港中文大学学士，纽约大学硕士</p>
+							<p class="text-uppercase m-0" style="font-size:20px;padding:15px;text-align:left;">任职于国际顶尖投行及香港上市公司。在香港有近20年读书、工作、生活经历，擅长家族办公室设计、家族信托设置、私人银行产品规划、资产配置、房地产投资分析、教育规划等</p>
+                        </div>
+                    </div>
+                </div>					
+            </div>
+		</div>
+	</div>
+    <!-- Team End -->
+
+
+    <!-- Blog Start -->
+    <!--<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Latest Blog</h5>
+                <h1 class="mb-0">Read The Latest Articles from Our Blog Post</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                            </div>
+                            <h4 class="mb-3">How to build a website</h4>
+                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                            </div>
+                            <h4 class="mb-3">How to build a website</h4>
+                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                            </div>
+                            <h4 class="mb-3">How to build a website</h4>
+                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!-- Blog Start -->
+
+
+    <!-- Vendor Start 
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5 mb-5">
+            <div class="bg-white">
+                <div class="owl-carousel vendor-carousel">
+                    <img src="img/vendor-1.jpg" alt="">
+                    <img src="img/vendor-2.jpg" alt="">
+                    <img src="img/vendor-3.jpg" alt="">
+                    <img src="img/vendor-4.jpg" alt="">
+                    <img src="img/vendor-5.jpg" alt="">
+                    <img src="img/vendor-6.jpg" alt="">
+                    <img src="img/vendor-7.jpg" alt="">
+                    <img src="img/vendor-8.jpg" alt="">
+                    <img src="img/vendor-9.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Vendor End -->
+    
+
+    <!-- Footer Start 
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>Startup</h1>
+                        </a>
+                        <p class="mt-3 mb-4">Lorem diam sit erat dolor elitr et, diam lorem justo amet clita stet eos sit. Elitr dolor duo lorem, elitr clita ipsum sea. Diam amet erat lorem stet eos. Diam amet et kasd eos duo.</p>
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                                <button class="btn btn-dark">Sign Up</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Get In Touch</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <p class="mb-0">123 Street, New York, USA</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <p class="mb-0">info@example.com</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <p class="mb-0">+012 345 67890</p>
+                            </div>
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Quick Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Popular Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="col-lg-12 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">Copyright &copy; <a class="text-white border-bottom" href="#"> 2023 侨成咨询</a>. All Rights Reserved. 
+						
+						<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
